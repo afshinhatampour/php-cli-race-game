@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f2c78e9a3e27e35afba5848dc9397d81",
+    "packages": [
+        {
+            "name": "splitbrain/php-cli",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitbrain/php-cli.git",
+                "reference": "844609ef16b8486691b7fd892d54478918f27fe8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitbrain/php-cli/zipball/844609ef16b8486691b7fd892d54478918f27fe8",
+                "reference": "844609ef16b8486691b7fd892d54478918f27fe8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
+            },
+            "suggest": {
+                "psr/log": "Allows you to make the CLI available as PSR-3 logger"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "splitbrain\\phpcli\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Gohr",
+                    "email": "andi@splitbrain.org"
+                }
+            ],
+            "description": "Easy command line scripts for PHP with opt parsing and color output. No dependencies",
+            "keywords": [
+                "argparse",
+                "cli",
+                "command line",
+                "console",
+                "getopt",
+                "optparse",
+                "terminal"
+            ],
+            "support": {
+                "issues": "https://github.com/splitbrain/php-cli/issues",
+                "source": "https://github.com/splitbrain/php-cli/tree/1.3.1"
+            },
+            "time": "2024-01-17T12:03:34+00:00"
+        },
+        {
+            "name": "wp-cli/php-cli-tools",
+            "version": "v0.11.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/php-cli-tools.git",
+                "reference": "a6bb94664ca36d0962f9c2ff25591c315a550c51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/a6bb94664ca36d0962f9c2ff25591c315a550c51",
+                "reference": "a6bb94664ca36d0962f9c2ff25591c315a550c51",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-latest",
+                "wp-cli/wp-cli-tests": "^4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.11.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/cli/cli.php"
+                ],
+                "psr-0": {
+                    "cli": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "daniel@handbuilt.co",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "James Logsdon",
+                    "email": "jlogsdon@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Console utilities for PHP",
+            "homepage": "http://github.com/wp-cli/php-cli-tools",
+            "keywords": [
+                "cli",
+                "console"
+            ],
+            "support": {
+                "issues": "https://github.com/wp-cli/php-cli-tools/issues",
+                "source": "https://github.com/wp-cli/php-cli-tools/tree/v0.11.22"
+            },
+            "time": "2023-12-03T19:25:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "alpha",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

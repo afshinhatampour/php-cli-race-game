@@ -1,0 +1,22 @@
+{
+    "name": "afshin/racecli",
+    "description": "simple php game cli app",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Afshin\\Racecli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "afshin",
+            "email": "afshin89hatampour@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.22",
+        "splitbrain/php-cli": "^1.3"
+    }
+}
